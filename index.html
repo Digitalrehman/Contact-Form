@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receiving Email</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="login-box">
+        <h2>Contact</h2>
+        <p>Your message receive in my gmail</p>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="e8b5754b-d608-429a-b4dc-c0ab5e7dfa35">
+            <div class="user-box">
+                <input type="text" required  placeholder="Name" name="name">
+                
+            </div>
+            <div class="user-box">
+                <input type="email"  placeholder="Email" name="email">
+    
+            </div>
+            <div class="user-box">
+                <textarea required placeholder="Message" name="message"></textarea>
+            
+            </div>
+            <button type="submit">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Submit
+            </button>
+              
+            
+        </form>
+    </div>
+</body>
+
+</html>
